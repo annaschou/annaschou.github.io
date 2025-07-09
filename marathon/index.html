@@ -21,11 +21,6 @@
             background-color: #ffffff;
             color: #000000;
         }
-        
-        body.dark-mode {
-            background-color: #121212;
-            color: #ffffff;
-        }
 
         .content {
             max-width: 1080px;
@@ -139,6 +134,16 @@
                 transform: scale(2); /* Größere Skalierung */
             }
         }
+        
+        /* darkmode */ 
+        @media (prefers-color-scheme: dark) {
+         body {
+            background-color: #121212;
+            color: #ffffff;
+            }
+        }
+
+
     </style>
 </head>
 
