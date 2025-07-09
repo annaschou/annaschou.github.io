@@ -1,6 +1,12 @@
 # Lede Projects 2025
 
-This is my rerepository for creating the website of my projects. 
+This website showcases my projects for Lede 2025.
 
-The repo for the first project about the Berlin Marathon is <a href="https://github.com/annaschou/project-marathon"> here</a>. 
+____________________________________________________________________________________________________________
+
+## <a href="https://github.com/annaschou/project-marathon"> How Marathon Culture has shifted</a>
+
+Discovering Trends and Insights from the Berlin Marathon through data
+
+
 
