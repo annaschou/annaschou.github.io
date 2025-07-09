@@ -4,9 +4,9 @@ This website showcases my projects for Lede 2025.
 
 ____________________________________________________________________________________________________________
 
-## <a href="https://github.com/annaschou/project-marathon"> How Marathon Culture has shifted</a>
+## <a href="https://annaschou.github.io/marathon/"> How Marathon Culture has shifted</a>
 
-Discovering Trends and Insights from the Berlin Marathon through data
+Discovering <a href="https://github.com/annaschou/project-marathon">Trends and Insights</a> from the Berlin Marathon through data
 
 
 
