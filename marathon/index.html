@@ -118,9 +118,15 @@
             }
 
             iframe,
-            img {
+            img,
+            figure{
             width: 100%; 
-            margin: 0
+            margin: 0 
+            }
+
+            .line-chart {
+                height: 80px; /* Begrenzte Höhe */
+                transform: scale(2); /* Größere Skalierung */
             }
         }
     </style>
@@ -149,7 +155,7 @@
             A data analysis of the <a href="https://www.bmw-berlin-marathon.com/">Berlin Marathon</a> shows the developments in running.</p>
 
         <figure>
-            <img src="line-chart-1.svg">
+            <img class="line-chart" src="line-chart-1.svg">
         </figure>
 
         <h2>Running as a Trend Sport</h2> 
@@ -172,7 +178,7 @@
         </script>
 
         <figure>
-            <img src="line-chart-2.svg">
+            <img class="line-chart" src="line-chart-2.svg">
         </figure>
 
         <h2>Young, Dynamic, Female</h2>
@@ -185,7 +191,7 @@
             average finish time was way higher than in previous years. But a look at 2019 and 2021 shows that this can not only be due to the increased female participation. In 2019, there were almost as many female runners in percentage terms as in 2018, but the average finish time was 7:30 minutes shorter. In 2021, there were even fewer women in percentage terms than in 2018 and still the average finish time was only 1:30 min shorter than in 2018.</p>
     
         <figure>
-            <img src="line-chart-3.svg">
+            <img class="line-chart" src="line-chart-3.svg">
         </figure>
 
 
