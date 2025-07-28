@@ -154,23 +154,22 @@
         border: 1px solid #000;
         }
 
-        /* Farben für die Legende */
         .low {
-        background-color: #ffece0; /* Gering (helles Beige) */
+        background-color: #ffece0;
         }
 
         .medium {
-        background-color: #ff5733; /* Mittel (Orange) */
+        background-color: #ff5733;
         }
 
         .high {
-        background-color: #800040; /* Hoch (Dunkles Lila) */
+        background-color: #800040;
         }
 
-    /* Optional: Zentriere die Legende */
-    .legend-container {
-      text-align: center; /* Zentriert die gesamte Legende */
-    }
+        .legend-container {
+         text-align: center;
+         }
+
         /* margin on mobile */
         @media (max-width: 640px) {
             body {
@@ -220,7 +219,7 @@
             min-height: 70svh;
             display: flex;
             justify-content: center;
-            align-items: flex-end; /* Verschiebt den Inhalt nach unten */
+            align-items: flex-end;
 
             /* White text with a shadow */
             color: white;
@@ -234,17 +233,17 @@
 
         .content {
             text-align: center;
-            margin-bottom: 5%; /* Abstand vom unteren Rand */
+            margin-bottom: 5%;
         }
 
         .content h1 {
-            font-size: 3rem; /* Hauptüberschrift */
+            font-size: 3rem;
             font-weight: bold;
             margin: 0;
         }
 
         .content .subhead {
-            font-size: 1.5rem; /* Unterüberschrift */
+            font-size: 1.5rem;
             margin-top: 0.5rem;
         }
     </style>
@@ -271,15 +270,18 @@
         <p>With over 21,000 residents gaining a second nationality in 2024, dual citizenship is on the rise in Berlin. 
             But how does the city treat non-citizens? An analysis in maps shows where they live and what conditions they face – from cramped housing to air pollution and noise.</p>
 
+        <div class="image-container"></div> 
+            <img src="berlin.png">
+            <p class="image-title">Berlin</p>
+        </div>
+
 
         <h2>A Divided City: The Berlin Border Shapes Migration</h2>
 
-        <p>The distribution of non-citizens in Berlin reveals clear patterns of the old East-West segregation. Western districts like, Neukölln, and Kreuzberg have become hubs for people without German citizenship. 
+        <p>The distribution of non-citizens in Berlin reveals clear patterns of the old East-West segregation. Western districts like, Neukölln, and Kreuzberg have become hubs for people without German citizenship. This is also highlighting how migration today is concentrated primarily in the city’s core.
             These areas, often referred to as immigration or arrival neighborhoods, host large populations of non-citizens but are also marked by significant social and economic challenges. </p>
 
         <p>Meanwhile, eastern areas like Marzahn-Hellersdorf, Lichtenberg, and Treptow-Köpenick see far fewer.</p>
-
-        <p>An exception is Mitte, which has a high proportion of foreigners – both formerly West and formerly East –  highlighting how migration today is concentrated primarily in the city’s core.</p>
 
         <img src="berlin-migration-wall.svg">
         
@@ -300,10 +302,13 @@
         
         <h2>Tight Spaces and Social Pressure</h2> 
 
-        <p>Districts with non-citizens often struggle with a lack of living space. In Neukölln or parts of Kreuzberg, people have less space per person on average.
+        <p>Districts with non-citizens often struggle with a lack of living space. In Neukölln, Spandau or Wedding, part of Berlin Mitte, people have less space per person on average.
              This overcrowding also puts pressure on schools, childcare centers, and healthcare services.</p>
 
-        <img src="berlin-status-index-no-border.svg">
+        <div class="image-container"></div> 
+            <img src="berlin-status-index-no-border.svg">
+            <p class="image-title">Living space</p>
+        </div>
         
         <div class="legend-container">
             <div class="legend-item">
@@ -322,13 +327,13 @@
         
 
         <p> The status index, which measures social and economic conditions, is another indicator of inequality. 
-            In areas like Neukölln and Wedding, part of Berlin Mitte, the index is low, highlighting structural disadvantages and a tough social environment.</p>
+            In areas like Neukölln and Wedding the index is low, highlighting structural disadvantages and a tough social environment.</p>
         
         <h2>Living Among Concrete and Traffic</h2> 
 
 
         <p>Environmental factors add to the challenges for dual citizens. 
-            Many live in areas with poor air quality, high noise levels, and few green spaces. In Neukölln and Kreuzberg, heavy traffic and dense buildings make the air harder to breathe. The darker the color, the higher the burden.</p>
+            Many live in areas with poor air quality, high noise levels, and few green spaces. In these districts, heavy traffic and dense buildings make the air harder to breathe. The darker the color, the higher the burden.</p>
 
         <div class="image-row">
             <div class="image-container">
