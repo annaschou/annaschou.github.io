@@ -22,7 +22,7 @@
             color: #000000;
         }
 
-        .content {
+        .content-text {
             max-width: 640px;
             margin: auto;
             text-align: justify;
@@ -106,6 +106,44 @@
             font-size: 0.85em;
         }
 
+        
+        .with-image-bg {
+            position: relative;
+            background-size: cover;
+            margin-bottom: 2em;
+
+
+            min-height: 70svh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+            color: white;
+            text-shadow: 0px 0px 30px black,
+                0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .with-image-bg {
+            background-image: url('marathon-2.jpg');
+        }
+
+        .content {
+            text-align: center;
+            margin-bottom: 5%; 
+        }
+
+        .content h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .content .subhead {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        
+
         /* margin on mobile */
         @media (max-width: 640px) {
             body {
@@ -148,21 +186,20 @@
 </head>
 
 <body>
-    <div class="content">
-        <div class="header">
 
-            <figure>
-                <img src="marathon-2.jpg">
-                <figcaption>Credit: Lennart Davies</figcaption>
-            </figure>
-
-            <h1>How  Marathon Culture has shifted </h1>
+    <div class="header with-image-bg">
+        <div class="content">
+            <h1>How  Marathon Culture has shifted</h1>
             <p class="subhead">Trends and Insights from the Berlin Marathon</p>
+            <figcaption>Credit: Lennart Davies</figcaption>
         </div>
+    </div>
+
+    <div class="content-text">
         <div class="byline">
             <p>By <a href="https://github.com/annaschou">Anna-Lena Schou</a></p>
         </div>
-
+    
         <p>According to social media, millennials and Gen Z are already in the midst of their life crisis: buying expensive portafilter 
             machines, riding road bikes, or signing up for a marathon. Between Strava stats, after-run coffees, and finisher medals, it seems that instead of starting family planning, the younger generation is more into endurance sports than ever before.</p>
 
