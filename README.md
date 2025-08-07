@@ -15,7 +15,7 @@ Discovering <a href="https://github.com/annaschou/project-berlin">through maps</
 
 
 
-## <a href="https://annaschou.github.io/petitions/"> How Marathon Culture has shifted</a>
+## <a href="https://annaschou.github.io/petitions/">Everyone can make a difference</a>
 
 Analysing the amount and tone of <a href="https://github.com/annaschou/project-petitions">petitions</a> on change.org in Germany.
 
